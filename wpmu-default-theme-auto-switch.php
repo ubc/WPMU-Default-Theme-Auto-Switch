@@ -33,4 +33,4 @@ function init() {
 	}
 }
 
-add_action( 'plugins_loaded', __NAMESPACE__ . '\\init' );
+add_action( 'muplugins_loaded', __NAMESPACE__ . '\\init' );
